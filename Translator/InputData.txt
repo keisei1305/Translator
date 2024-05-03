@@ -1,0 +1,19 @@
+﻿char Situation() {
+	return 'a';
+}
+
+int main()
+{
+	for(int i = 0; i < 4; i+=1)
+	{
+		if (i == 2)
+		{
+			Situation();
+		}
+		else
+		{
+			char s = "A";
+		}
+	}
+	return 0;
+}
